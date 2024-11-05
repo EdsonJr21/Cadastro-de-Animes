@@ -1,39 +1,37 @@
 # Projeto de Cadastro de Animes
 
-Este é um projeto React para cadastrar e organizar animes por gênero, onde é possível criar cards personalizados para cada anime, especificando seu nome, número de episódios, imagem de cartaz e gênero. O projeto também permite modificar as cores dos gêneros e possui um rodapé com links para redes sociais.
+Este é um projeto React para cadastrar e organizar animes por gênero, permitindo a criação de cards personalizados que incluem o nome, número de episódios, imagem de cartaz e gênero. O projeto também possibilita a modificação das cores dos gêneros e possui um rodapé com links para redes sociais.
 
 ## Funcionalidades
 
-- Adicionar um novo anime com informações de nome, número de episódios, imagem de cartaz e gênero.
-- Excluir animes da lista.
+- Adicionar, excluir e listar animes.
 - Alterar a cor de fundo de cada gênero de anime.
 - Rodapé com links para GitHub, LinkedIn e redes sociais.
 
 ## Estrutura do Projeto
 
-Abaixo, uma breve descrição dos principais componentes do projeto:
+![Formulário](public/imagens/form.png)
+![Mostrando as cores](public/imagens/mostrando%20as%20cores.png)
 
-### `App.js`
-Componente principal que gerencia o estado global dos animes e dos gêneros. Ele controla as operações de adicionar e excluir animes e a mudança de cor dos gêneros.
+### Componentes Principais
 
-### Componentes
+- **`App.js`**: Gerencia o estado global dos animes e das operações de adicionar e excluir.
+- **`Banner`**: Exibe uma imagem principal.
+- **`Formulario`**: Permite o cadastro de animes.
+- **`Botao`**: Botão estilizado para envio do formulário.
+- **`CampoTexto`**: Campos de texto do formulário.
+- **`ListaSuspensa`**: Seleção do gênero do anime.
+- **`Time`**: Exibe animes por gênero com possibilidade de mudança de cor.
+- **`Colaborador`**: Card de cada anime com informações e botão de exclusão.
+- **`Rodape`**: Links para redes sociais.
 
-- **`Banner`**: Componente de cabeçalho que exibe uma imagem principal.
-- **`Formulario`**: Formulário para cadastro de animes, onde é possível inserir informações sobre o nome, número de episódios, imagem e gênero.
-- **`Botao`**: Componente de botão estilizado para envio do formulário.
-- **`CampoTexto`**: Componente para os campos de texto do formulário.
-- **`ListaSuspensa`**: Lista suspensa que permite selecionar o gênero do anime.
-- **`Time`**: Representa cada gênero de anime, exibindo os animes cadastrados nesse gênero e permitindo a mudança de cor do fundo.
-- **`Colaborador`**: Card individual de cada anime, mostrando informações como imagem, nome e número de episódios, além de um botão para excluir o anime.
-- **`Rodape`**: Rodapé com links para redes sociais, incluindo GitHub e LinkedIn.
+## Tecnologias Utilizadas
 
-## Dependências
-
-Para que o projeto funcione corretamente, são necessárias as seguintes dependências:
-
-- `react-icons`: Para os ícones de redes sociais e o botão de exclusão.
-- `uuid`: Para gerar IDs únicos para os animes e gêneros.
-- `hex-to-rgba`: Para ajustar as cores dos componentes.
+- React
+- CSS
+- React Icons
+- UUID
+- Hex-to-Rgba
 
 ## Como Clonar e Rodar o Projeto
 
