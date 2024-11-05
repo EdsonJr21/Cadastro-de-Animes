@@ -1,0 +1,69 @@
+.time {
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.time h3 {
+    font-size: 28px;
+    border-bottom: 4px solid #6278F7;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s, border-color 0.3s;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.time h3:hover {
+    color: #6278F7;
+    border-color: #4a5dc7;
+}
+
+.time .colaboradores {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 140px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.input-cor {
+    position: relative;
+    float: right;
+    margin: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 120px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.input-cor:focus {
+    outline: none;
+    transform: scale(1.05);
+}
+
+.input-cor:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-cor::-webkit-color-swatch {
+    border-radius: 20px;
+    border: none;
+}
